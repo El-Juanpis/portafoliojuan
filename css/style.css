@@ -1,0 +1,668 @@
+/* ESTILOS GENERALES INICIO */
+* {
+  margin: 0;
+  padding: 0;
+  font-size: "Inter", sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+/*--------------------------*/
+
+/* BODY */
+body {
+
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding-bottom: 3em;
+  min-height: 100vh;
+}
+/* -------------------------*/
+
+/* PARTICULAS */
+#particles-js {
+  background: #050810;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: -1;
+}
+/* -------------------------*/
+
+/*HEADER*/
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  z-index: 3;
+  margin-bottom: 6rem;
+}
+/* -------------------------*/
+
+/*NAVBAR*/
+.menu {
+  display: flex;
+  background: #171a2425;
+  backdrop-filter: blur(0.4rem);
+  justify-content: center;
+  position: fixed;
+  border-radius: 20px;
+  font-family: "Berkshire Swash", cursive;
+  border-color: rgba(255, 255, 255, 0.048);
+  border-width: 0.2px;
+  border-style: solid;
+  z-index: 2;
+}
+.menu ul {
+  display: inline-flex;
+  list-style-type: none;
+  flex-flow: row wrap;
+  gap: 10px;
+}
+.menu ul li {
+  padding: 1.1em;
+  transition: 0.2s;
+  flex-shrink: 1;
+  font-weight: 400;
+}
+.menu ul li a {
+  text-decoration: none;
+  font-size: 1em;
+  border-radius: 13px;
+  padding: 5px 5px;
+  color: #ffffff;
+  transition: 1s;
+}
+.menu ul li a:hover {
+  color: #ffffff;
+  /*   background: #1f2331; */
+  transition: 0.4s;
+}
+.menu ul li:hover {
+  transform: translateY(-10px);
+}
+/* ----------------------------- */
+
+/* SCROOL NAVEGADOR- */
+body::-webkit-scrollbar {
+  width: 10px;
+}
+body {
+  background: #050810;
+}
+body::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background: #181924;
+}
+/* ------------------------ */
+
+/* MAIN-CUERPO-*/
+main {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+/* ------------------------- */
+
+/* CONTENEDOR PRINCIPAL */
+.principal-container {
+  width: 80%;
+}
+/* -------------------------- */
+
+/* TITULO PRESENTACIÓN */
+.title-presentation h1 {
+  font-size: 5em;
+  color: #fefefe;
+  font-family: "Berkshire Swash", cursive;
+}
+.title-presentation h2 {
+  font-size: 5em;
+  color: #008080;
+  font-family: "Berkshire Swash", cursive;
+}
+.title-presentation .change-color {
+  color: #fefefe;
+}
+
+/* hover-titulo-presentación */
+.developert:hover {
+  color: #dfd1d1;
+  text-shadow: 0 0 5px #09959c, 0 0 25px #09959c, 0 0 50px #09959c,
+    0 0 100px #09959c;
+}
+.light:hover {
+  color: #dfd1d1;
+  text-shadow: 0 0 5px #ffff00, 0 0 25px #ffff00, 0 0 50px #ffff00,
+    0 0 100px #ffff00;
+}
+
+.titleWhoIAm .change-color {
+  color: #fefefe;
+}
+/* -------------------- */
+
+/* UN POCO DE MI */
+.aLittleBitAboutMe {
+  margin-top: 7rem;
+  z-index: 1;
+  width: 100%;
+  background: rgba(236, 234, 234, 0.11);
+  border-radius: 8px;
+}
+.aboutme {
+  color: #fefefe;
+  /* padding: 0.5em 2em; */
+}
+.title-aboutme {
+  font-family: "Berkshire Swash", cursive;
+  text-align: center;
+  font-size: 3em;
+  color: #2ff1f1;
+  padding-bottom: 1rem;
+}
+.title-aboutme:hover {
+  color: #dfd1d1;
+  text-shadow: 0 0 5px #09959c, 0 0 25px #09959c, 0 0 50px #09959c,
+    0 0 100px #09959c;
+}
+.content-about-photo {
+  display: flex;
+  justify-content: center;
+}
+.content-wraper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 16rem;
+  height: 17rem;
+  border-radius: 30px;
+  background: rgba(0, 0, 0, 0.5);
+}
+.wrapper {
+  width: 13rem;
+  height: 13rem;
+  background: transparent;
+  border-radius: 50%;
+}
+
+.parrafo-about {
+  font-family: "Inter", sans-serif;
+  color: rgb(255, 255, 255);
+  padding: 0.5em 2em;
+  text-align: center;
+}
+.parrafo-about2 {
+  font-family: "Inter", sans-serif;
+  color: rgb(255, 255, 255);
+  text-align: justify;
+  font-weight: 100;
+  padding: 0.5em 2.5em;
+}
+.parrafo-about3 {
+  font-family: "Inter", sans-serif;
+  color: rgb(255, 255, 255);
+  text-align: justify;
+  font-weight: 100;
+  padding: 0.5em 2.5em 1em;
+}
+
+/* --------------------------- */
+
+/* HABILIDADES */
+.article-skills {
+  margin-top: 8rem;
+  background: rgba(236, 234, 234, 0.11);
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 6rem;
+}
+.tittle-skils {
+  font-size: 3em;
+  color: #2ff1f1;
+  font-family: "Berkshire Swash", cursive;
+  text-align: center;
+}
+.tittle-skils:hover {
+  color: #dfd1d1;
+  text-shadow: 0 0 5px #09959c, 0 0 25px #09959c, 0 0 50px #09959c,
+    0 0 100px #09959c;
+}
+.article-skills p {
+  font-family: "Inter", sans-serif;
+  color: rgb(255, 255, 255);
+  padding: 0.5em 2em;
+  text-align: justify;
+  font-weight: 100;
+}
+.article-learning {
+  padding: 1rem;
+}
+.learning {
+  display: flex;
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* iconos */
+.icons {
+  font-size: 100px;
+}
+.div-icon {
+  background-color: #080d1b;
+  width: 120px;
+  border-radius: 10px;
+  padding: 10px 0px 10px;
+  transition: 0.5s;
+}
+.div-icon:hover {
+  transform: translateY(-10px);
+}
+.ihtml:hover {
+  color: #dfd1d1;
+  text-shadow: 0 0 5px #631111, 0 0 25px #631111, 0 0 50px #631111,
+    0 0 100px #631111;
+}
+.icss:hover {
+  color: #f1e1e1;
+  text-shadow: 0 0 5px #125255, 0 0 25px #125255, 0 0 50px #125255,
+    0 0 100px #125255;
+}
+.ijs:hover {
+  color: #5e750cd7;
+  text-shadow: 0 0 5px #6f8a10, 0 0 15px #6f8a10, 0 0 40px #6f8a10,
+    0 0 80px #6f8a10;
+}
+.ireact:hover {
+  color: #dfd1d1;
+  text-shadow: 0 0 5px #0a7e85, 0 0 25px #0a7e85, 0 0 50px #0a7e85,
+    0 0 100px #0a7e85;
+}
+/* -------------------------- */
+
+/* PROYECTOS */
+.article-projects h3{
+  font-size: 3em;
+  font-family: "Berkshire Swash", cursive;
+  text-align: center;
+  color: #dfd1d1;
+  text-shadow: 0 0 5px #09959c, 0 0 25px #09959c, 0 0 50px #09959c,
+    0 0 100px #09959c;
+}
+.container-proyects {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+  flex-wrap: wrap;
+}
+
+.container-proyects .card {
+  position: relative;
+  width: 380px;
+  height: 400px;
+  margin: 30px;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 0.5px solid rgba(255, 255, 255, 0.5);
+  border-left: 0.5px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+}
+
+.container-proyects .card .content {
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  width: 100%;
+  height:100%;
+}
+
+.container-proyects .card .content h2 {
+  font-size: 1.5em;
+  font-family: "Berkshire Swash", cursive;
+  color: #fff;
+  z-index: 1;
+}
+
+.container-proyects .card .content p {
+  font-size: 1em;
+  color: #fff;
+  text-align: justify;
+  padding: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 100;
+}
+.container-proyects .card .content a {
+  position: relative;
+  display: inline-block;
+  padding: 8px 20px;
+  margin-top: 15px;
+  background: #fff;
+  color: #000;
+  border-radius: 15px;
+  text-decoration: none;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+.icons3 {
+  color: white;
+  font-size: 100px
+}
+
+.container-proyects .card .content .title-card {
+  padding-top: 10px;
+  width: 100%;
+  height: 20%;
+}
+
+.container-proyects .card .content .body-card {
+  padding-top: 10px;
+  height: 60%;
+}
+
+.container-proyects .card .content .boton-card {
+  height: 20%;
+  font-family: "Berkshire Swash", cursive;
+}
+
+
+
+/* ----------------------- */
+
+/* CONTACTO */
+
+.contact {
+  z-index: 1;
+  margin-top: 8rem;
+  background: rgba(236, 234, 234, 0.11);
+  padding-bottom: 1em;
+  margin-bottom: 4em;
+  border-radius: 8px;
+}
+.contact-h2 h2 {
+  font-size: 3em;
+  color: #2ff1f1;
+  font-family: "Berkshire Swash", cursive;
+  text-align: center;
+}
+
+.contact p {
+  padding: 0.5em 2em;
+  color: white;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+}
+.icons2 {
+  font-size: 70px;
+  text-decoration: none;
+}
+.instag:hover {
+  color: #dfd1d1;
+  text-shadow: 0 0 5px #ff009d, 0 0 25px #ff009d, 0 0 50px #ff009d,
+    0 0 100px #ff009d;
+}
+.lkn:hover {
+  color: #00888f;
+  text-shadow: 0 0 5px #00888f, 0 0 25px #00888f, 0 0 50px #00888f,
+    0 0 100px #00888f;
+}
+.gmail:hover {
+  color: #008496d7;
+  text-shadow: 0 0 5px #008496d7, 0 0 15px #008496d7, 0 0 40px #008496d7,
+    0 0 80px #008496d7;
+}
+
+/* ------------------------ */
+
+/* FOOTER */
+footer {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 4em;
+  padding: 1em 0;
+  background: #050810;
+  border-top: 0.5px solid rgba(255, 255, 255, 0.185);
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+}
+/* ------------------ */
+
+/* MEDIAQUERIS */
+
+/* acomodar titulo */
+@media only screen and (max-width: 920px) {
+  header {
+    margin-bottom: 3.5em;
+  }
+
+  .title-presentation h1 {
+    font-size: 4em;
+  }
+
+  .title-presentation h2 {
+    font-size: 4em;
+  }
+
+  .title-presentation .change-color {
+    font-size: 4em;
+  }
+  /* --------------------------- */
+
+  /* acomodar alineacion de titulos  y foto de la seccion sobre mi*/
+}
+@media only screen and (max-width: 797px) {
+  .title-presentation {
+    text-align: center;
+  }
+
+  .content-wraper {
+    width: 13rem;
+    height: 14rem;
+  }
+  .wrapper {
+    width: 11rem;
+    height: 11rem;
+  }
+}
+/* -------------------------------- */
+/* acomodar menu y otros */
+@media only screen and (max-width: 691px) {
+  /* menu */
+  .menu ul li {
+    padding: 0.8rem;
+  }
+
+  .menu ul li a {
+    font-size: 1em;
+    padding: 3px 3px;
+  }
+  .title-presentation {
+    text-align: center;
+  }
+  /* ---------------------- */
+
+  /* titulos */
+  .title-presentation h1 {
+    font-size: 3em;
+  }
+
+  .title-presentation h2 {
+    font-size: 3em;
+  }
+
+  .title-presentation .change-color {
+    font-size: 3em;
+  }
+  /* ----------------------- */
+  /* acomodar dimensiones del menu y los titulosd e cada articulo */
+  @media only screen and (max-width: 547px) {
+    .menu ul li {
+      padding: 0.5rem;
+    }
+
+    .menu ul li a {
+      font-size: 1em;
+      padding: 2px 2px;
+    }
+    .title-aboutme {
+      font-size: 2.5em;
+    }
+  }
+  .tittle-skils {
+    font-size: 2.5em;
+  }
+
+  .article-projects h3{
+    font-size: 2.5em;
+  }
+
+  .contact-h2 h2 {
+    font-size: 2.5em;
+  }
+  .container-proyects .card {
+  width: 500px;
+  }
+
+}
+/* acomodar tamaños de iconos Seccion de habilidades y contacto */
+@media only screen and (max-width: 480px) {
+  .learning {
+    gap: 50px;
+  }
+
+  .icons {
+    font-size: 50px;
+  }
+
+  .div-icon {
+    background-color: #080d1b;
+    width: 70px;
+    border-radius: 10px;
+    padding: 10px 0px 10px;
+    transition: 0.5s;
+  }
+  .icons2 {
+    font-size: 50px;
+  }
+
+  .icons3 {
+    font-size: 50px;
+  }
+
+  .article-skills p {
+    padding: 0.5em 1em;
+  }
+
+  .parrafo-about {
+    padding: 0.5em 1em;
+    text-align: center;
+  }
+  .parrafo-about2 {
+   
+    padding: 0.5em 1.5em;
+  }
+  .parrafo-about3 {
+    padding: 0.5em 1.5em 1em;
+}
+}
+/* acomodar tamaños para rexponsive en galaxy fold */
+@media only screen and (max-width: 370px) {
+  .menu ul li {
+    padding: 0.3rem;
+  }
+
+  .menu ul li a {
+    font-size: 0.8em;
+    padding: 2px 2px;
+  }
+
+  .title-aboutme {
+    font-size: 2em;
+  }
+
+  .tittle-skils {
+    font-size: 2em;
+  } 
+
+  .content-wraper {
+    width: 11rem;
+    height: 12rem;
+  }
+  .wrapper {
+    width: 10rem;
+    height: 10rem;
+  }
+  .container-proyects .card .content p {
+    font-size: 0.78em;
+  }
+}
+
+@media only screen and (max-width: 280px) {
+  .menu ul li {
+    padding: 0.3rem;
+  }
+
+  .menu ul li a {
+    font-size: 0.7em;
+    padding: 2px 2px;
+  }
+
+  .title-aboutme {
+    font-size: 1.5em;
+  }
+
+  .tittle-skils {
+    font-size: 1.5em;
+  }
+
+  .content-wraper {
+    width: 8rem;
+    height: 9rem;
+  }
+  .wrapper {
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .learning {
+    gap: 30px;
+  }
+
+  .icons {
+    font-size: 30px;
+  }
+
+  .div-icon {
+    width: 40px;
+  }
+  .icons2 {
+    font-size: 30px;
+  }
+
+  .icons3 {
+    font-size: 40px;
+  }
+}
+
+/* ------------------------ */
