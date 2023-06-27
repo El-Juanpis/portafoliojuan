@@ -1,9 +1,9 @@
 var hoverDistort = new hoverEffect({
   parent: document.querySelector('.wrapper'),
   intensity: 0.5,
-  image1: '/images/juanpa.png',
-  image2: '/images/juan.png',
-  displacementImage: '/images/14pintura.jpg'
+  image1: './images/juanpa.png',
+  image2: './images/juan.png',
+  displacementImage: './images/14pintura.jpg'
  
 });
 
