@@ -421,13 +421,19 @@ main {
 }
 .instag:hover {
   color: #dfd1d1;
-  text-shadow: 0 0 5px #ff009d, 0 0 25px #ff009d, 0 0 50px #ff009d,
-    0 0 100px #ff009d;
+  text-shadow: 0 0 5px #74094b, 0 0 25px #74094b, 0 0 50px #74094b,
+    0 0 100px #74094b   ;
 }
 .lkn:hover {
   color: #00888f;
-  text-shadow: 0 0 5px #00888f, 0 0 25px #00888f, 0 0 50px #00888f,
-    0 0 100px #00888f;
+  text-shadow: 0 0 5px #0f7d83, 0 0 25px #0f7d83, 0 0 50px #0f7d83,
+    0 0 100px #0f7d83;
+}
+
+.Git:hover {
+  color: #16d33f;
+  text-shadow: 0 0 5px #0b8325, 0 0 25px #0b8325, 0 0 50px #0b8325,
+    0 0 100px #0b8325;
 }
 .gmail:hover {
   color: #008496d7;
